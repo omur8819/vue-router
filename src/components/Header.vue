@@ -9,7 +9,6 @@
         </router-link>
         <router-link 
             active-class="active" 
-            exact
             to="/user"
             tag="li">
             <a>User</a>
