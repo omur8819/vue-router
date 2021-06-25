@@ -10,16 +10,9 @@
         <router-link 
             active-class="active" 
             exact
-            to="/user/1"
+            to="/user"
             tag="li">
-            <a>User 1</a>
-        </router-link>
-        <router-link 
-            active-class="active" 
-            exact
-            to="/user/2"
-            tag="li">
-            <a>User 2</a>
+            <a>User</a>
         </router-link>
     </ul>
 </template>
