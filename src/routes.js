@@ -9,6 +9,6 @@ export const routes = [
     { path: '/user', component: User, name: 'userpage', children: [
         { path: '', component: UserStart },
         { path: ':id', component: UserDetail },
-        { path: ':id/edit', component: UserEdit }
+        { path: ':id/edit', component: UserEdit, name: "userEdit" }
     ] },
 ]
